@@ -1,0 +1,190 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-left: 30px;
+    
+    }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+
+.top-background{
+    background-image: url("../img/Artboard\ 1.png") ;
+    background-size: cover;
+}
+
+
+body {
+    margin: 0;
+    
+  }
+
+
+.header1{
+    margin-left: 850px;
+    background-repeat: no-repeat;
+    color: #1f2937;
+}
+.top-img{
+width: 800px;
+height: 500px;
+float: right;
+margin-bottom: 100px;
+margin-top: -9%;
+
+}
+
+.top-section{
+float:left;
+
+
+}
+
+.top-section{
+margin-left: 250px;
+color: #1f2937;
+}
+
+h1{
+    font-size: 48px;
+}
+
+
+
+.middle-section{
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.overflow{
+    overflow: hidden; /* allow middle section*/
+    box-sizing:border-box;
+    color:#e5e7eb;
+}
+
+.rcorners,.rcorners1,.rcorners2{
+width: 150px;
+height: 140px;
+border: 5px #3882f6 solid;
+border-radius: 28px;
+}
+.boxes,.boxes1,.boxes2,.boxes3{
+     /* To correctly align image, regardless of content height: */
+     vertical-align: top;
+     display: inline-block;
+     /* To horizontally center images and caption */
+     text-align: center;
+     /* The width of the container also implies margin around the images. */
+     width: 120px;
+    margin-left: 90px;
+    margin-right:70px;
+
+    }
+
+
+
+p{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.quote{
+text-align: center;
+font-size:36px ;
+font-weight: lighter;
+color: #1F2937;
+text-emphasis: initial;
+background-color: #E5E7EB;
+padding:120px 100px 120px;
+
+}
+
+
+
+.header-foot{
+    margin-left: 1000px;
+}
+
+.call-to-action{
+    margin-left: 350px;
+    margin-top:150px;
+    background-color: #3882f6;
+    margin-right: 350px;
+    padding:20px 20px 20px ;
+    border-radius: 16px;
+   color: #E5E7EB;
+}
+
+.call-to-action-parent{
+   
+    padding-top: 10px;
+    padding-bottom: 90px;
+    max-width: 100rem;
+
+}
+
+.shorthand-div{
+    display:flex;
+    align-items: center;
+    margin-top: -40px;
+
+}
+
+.last-sign-up{
+
+
+}
+
+footer{
+  text-align: center;  
+    background-color: #1F2937;
+    padding: 8px 1px 8px;
+    color:#e5e7eb ;
+    font-weight: lighter;
+}
+
+button{
+    padding: 10px 20px 10px;
+    background-color: transparent;
+    border:#ff7b00 3px solid;
+    border-radius: 8px;
+    color: #1F2937;
+    margin-left: 200px;
+    font-weight: bold;
+
+
+}
+
+.products{
+    font-size:36px;
+
+}
+
+.box-paragraph1{
+    margin-left: 20px;
+
+}
+
